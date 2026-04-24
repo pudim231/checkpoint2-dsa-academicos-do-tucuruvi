@@ -22,6 +22,16 @@ while(opcao != 6){
     scanf("%d", &opcao);
     switch (opcao)
     {
+        case 1:
+            printf("Digite a nota 1: ");
+            scanf("%f", &nota1);
+            printf("Digite a nota 2: ");
+            scanf("%f", &nota2);
+            break;
+         case 2:
+            media = (nota1 + nota2)/2;
+            printf("A media do aluno foi calculada\n");
+            break;
     
     return 0;
 }
