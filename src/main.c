@@ -11,7 +11,7 @@ printf("5 - Calcular derivada\n");
 printf("6 - Sair\n");
 printf("Escolha uma opcao: ");
 }
-int main() {
+int main(){
 
 int opcao;
 float nota1, nota2, media, x, y;
@@ -44,5 +44,16 @@ while(opcao != 6){
                 printf("Reprovado\n");
             }
             break;
+        case 5:
+            y = 3*x + 12;
+            printf("insira um valor para a função:\n");
+            scanf("%f",x);
+            break;
+        case 6:
+            break;
+        default:
+            break;
+         }
+        }
     return 0;
 }
