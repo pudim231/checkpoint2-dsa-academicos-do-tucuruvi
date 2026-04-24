@@ -32,6 +32,8 @@ while(opcao != 6){
             media = (nota1 + nota2)/2;
             printf("A media do aluno foi calculada\n");
             break;
-    
+        case 3:
+            printf("Sua media e: %.2f\n", media);
+            break;
     return 0;
 }
