@@ -12,7 +12,10 @@ printf("6 - Sair\n");
 printf("Escolha uma opcao: ");
 }
 int main() {
-   
+
+int opcao;
+float nota1, nota2, media, x, y;
+
 
     
     return 0;
