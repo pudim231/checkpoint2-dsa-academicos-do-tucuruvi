@@ -12,9 +12,9 @@ printf("6 - Sair\n");
 printf("Escolha uma opcao: ");
 }
 int main(){
-
+double a, b, c;
 int opcao;
-float nota1, nota2, media, x, y;
+float nota1, nota2, media;
 
 while(opcao != 6){
 
@@ -45,9 +45,14 @@ while(opcao != 6){
             }
             break;
         case 5:
-            y = 3*x + 12;
-            printf("insira um valor para a função:\n");
-            scanf("%f",x);
+            printf("Digite o valor de a: "); 
+         scanf("%lf", &a);
+         printf("Digite o valor de b: "); 
+         scanf("%lf", &b);
+         printf("Digite o valor de c: ");
+         scanf("%lf", &c);
+         double coeficiente = 2.0 * a; 
+         printf("Derivada: f'(x) = %.2fx + %.2f\n", coeficiente, b);
             break;
         case 6:
             break;
