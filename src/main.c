@@ -13,7 +13,7 @@ printf("Escolha uma opcao: ");
 }
 int main(){
 double a, b, c;
-int opcao;
+int opcao = 0;
 float nota1, nota2, media;
 
 while(opcao != 6){
@@ -33,9 +33,6 @@ while(opcao != 6){
             printf("A media do aluno foi calculada\n");
             break;
         case 3:
-            printf("Sua media e: %.2f\n", media);
-            break;
-        case 4:
             if (media < 6 && media >= 4){
                 printf("Recuperação\n");
             }else if (media >= 6){
@@ -43,6 +40,11 @@ while(opcao != 6){
             }else if (media < 4){
                 printf("Reprovado\n");
             }
+            
+            break;
+        case 4:
+            printf("Sua media e: %.2f\n", media);
+
             break;
         case 5:
             printf("Digite o valor de a: "); 
