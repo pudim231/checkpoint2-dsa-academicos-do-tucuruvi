@@ -35,5 +35,14 @@ while(opcao != 6){
         case 3:
             printf("Sua media e: %.2f\n", media);
             break;
+        case 4:
+            if (media < 6 && media >= 4){
+                printf("Recuperação\n");
+            }else if (media >= 6){
+                printf("Aprovado\n");
+            }else if (media < 4){
+                printf("Reprovado\n");
+            }
+            break;
     return 0;
 }
