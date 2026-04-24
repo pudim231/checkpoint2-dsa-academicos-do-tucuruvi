@@ -16,7 +16,12 @@ int main() {
 int opcao;
 float nota1, nota2, media, x, y;
 
+while(opcao != 6){
 
+    menu();
+    scanf("%d", &opcao);
+    switch (opcao)
+    {
     
     return 0;
 }
